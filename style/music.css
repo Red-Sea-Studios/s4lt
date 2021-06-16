@@ -20,7 +20,6 @@
     color: var(--white);
     font-size: 20px;
     font-weight: 800;
-    border-radius: 10px;
     position: relative;
     vertical-align: top;
 }
@@ -72,7 +71,7 @@
 }
 
 .track.active {
-    outline: solid var(--white) 5px;
+    outline: solid magenta 5px;
     outline-offset: -5px;
 }
 
