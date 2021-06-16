@@ -1,0 +1,104 @@
+#splash-logo, .logo-layer path {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+} 
+
+#splash-logo {
+    border: solid yellow 10px;
+    border: solid yellow 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    animation-name: borderColor;
+    display: block;
+    width: clamp(300px, 80vw, 2000px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#logo-top path {
+    animation-name: logoTop;
+}
+
+#logo-middle path {
+    animation-name: logoMiddle;
+}
+
+#logo-bottom path {
+    animation-name: logoBottom;
+}
+
+#nav {
+    background: transparent;
+    position: static;
+    width: 100vw;
+    border-bottom: none;
+    text-align: center;
+}
+
+#nav li {
+    color: yellow;
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    top: 15px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+
+
+
+
+
+
+@keyframes logoTop {
+    0% {
+        fill: magenta;
+    }
+    50% {
+        fill: yellow;
+    }
+    100% {
+        fill: cyan;
+    }
+}
+
+@keyframes logoMiddle {
+    0% {
+        fill: cyan;
+    }
+    50% {
+        fill: magenta;
+    }
+    100% {
+        fill: yellow;
+    }
+}
+
+@keyframes logoBottom {
+    0% {
+        fill: yellow;
+    }
+    50% {
+        fill: cyan;
+    }
+    100% {
+        fill: magenta;
+    }
+}
+
+@keyframes borderColor {
+    0% {
+        border-color: magenta;
+    }
+    50% {
+        border-color: yellow;
+    }
+    100% {
+        border-color: cyan;
+    }
+}
