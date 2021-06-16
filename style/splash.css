@@ -53,8 +53,6 @@
 
 
 
-
-
 @keyframes logoTop {
     0% {
         fill: magenta;
@@ -70,6 +68,16 @@
     }
     85% {
         opacity: 100;
+    }
+    8% {
+        transform: translate(0vw, 0vh);
+    }
+    89% {
+        opacity: 100;
+        transform: translate(-2vw, -3vh);
+    }
+    90% {
+        transform: translate(0vw, 0vh);
     }
     95%{
         opacity: 0;
@@ -93,8 +101,15 @@
     82% {
         opacity: 0;
     }
+    88% {
+        transform: translate(0vw, 0vh);
+    }
     89% {
         opacity: 100;
+        transform: translate(2vw, 3vh);
+    }
+    90% {
+        transform: translate(0vw, 0vh);
     }
     95%{
         opacity: 0;
