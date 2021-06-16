@@ -11,7 +11,7 @@ html {
     font-family: 'Creepster', sans-serif;
 }
 
-h3 {
+h2 {
     text-align: center;
     font-size: 50px;
 }
@@ -19,13 +19,11 @@ h3 {
 a {
     color: var(--white);
     text-decoration: none; 
-
 }
 
 a:hover {
    text-decoration: underline; 
 }
-
 
 #nav {
     position: fixed;
@@ -54,7 +52,8 @@ a:hover {
     display: block;
     width: clamp(300px, 30vw, 1000px);
     margin: auto;
-    margin-top: 60px;
+    margin-top: 70px;
+    margin-bottom: 25px;
 }
 
 /* #footer {

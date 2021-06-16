@@ -1,6 +1,8 @@
-#tracks {
+#originals, #covers {
+    text-align: center;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
     width: clamp(600px, 90vw, 2000px);
 }
 

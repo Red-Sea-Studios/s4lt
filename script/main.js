@@ -3,19 +3,23 @@ $(function() {
     console.log("S4LT");
     console.log("!!!!!!!!!!!!!!!!");
     loadBars();
-    // let pathname = window.location.pathname; 
-    // switch(pathname) {
-    //     case 
-
-    // }
-    $("#music").addClass("active");
-
-
 
 });
 
-
 function loadBars() {
-    $("#nav").load("/template/nav.html");
+    $("#nav").load("/template/nav.html", function(){
+        let pathname = window.location.pathname; 
+        switch(pathname) {
+            case "/page/music.html":
+                $("#music").addClass("active");
+                break;
+            case "/page/art.html":
+                $("#art").addClass("active");
+                break;  
+            case "/page/writing.html":
+                $("#writing").addClass("active");
+                break;
+        }
+    });
     $("#footer").load("/template/footer.html");
 }
