@@ -1,8 +1,8 @@
 #splash-logo, .logo-layer path {
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in;
 } 
 
 #splash-logo {
@@ -62,7 +62,20 @@
     50% {
         fill: yellow;
     }
+    75% {
+        opacity: 100;
+    }
+    80% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 100;
+    }
+    95%{
+        opacity: 0;
+    }
     100% {
+        opacity: 100;
         fill: cyan;
     }
 }
@@ -73,6 +86,18 @@
     }
     50% {
         fill: magenta;
+    }
+    75% {
+        opacity: 100;
+    }
+    82% {
+        opacity: 0;
+    }
+    89% {
+        opacity: 100;
+    }
+    95%{
+        opacity: 0;
     }
     100% {
         fill: yellow;
@@ -85,6 +110,12 @@
     }
     50% {
         fill: cyan;
+    }
+    78% {
+        opacity: 100;
+    }
+    89% {
+        opacity: 0; 
     }
     100% {
         fill: magenta;
