@@ -69,12 +69,12 @@
     85% {
         opacity: 100;
     }
-    30% {
+    50% {
         transform: translate(0vw, 0vh);
     }
     89% {
         opacity: 100;
-        transform: translate(-4vw, -3vh);
+        transform: translate(-1vw, -2vh);
     }
     90% {
         transform: translate(0vw, 0vh);
@@ -131,6 +131,13 @@
     }
     89% {
         opacity: 0; 
+        transform: translate(0vw, 0vw)
+    }
+    90% {
+        transform: translate(5vw, 4vw)
+    }
+    91% {
+        transform: translate(0vw, 0vw)
     }
     100% {
         fill: magenta;
