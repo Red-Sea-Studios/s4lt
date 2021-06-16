@@ -3,11 +3,11 @@ $(function() {
     console.log("S4LT");
     console.log("!!!!!!!!!!!!!!!!");
     loadBars();
-    let pathname = window.location.pathname; 
-    switch(pathname) {
-        case 
+    // let pathname = window.location.pathname; 
+    // switch(pathname) {
+    //     case 
 
-    }
+    // }
     $("#music").addClass("active");
 
 
