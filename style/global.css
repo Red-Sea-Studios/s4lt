@@ -54,6 +54,7 @@ a:hover {
     margin: auto;
     margin-top: 70px;
     margin-bottom: 25px;
+    z-index: 100;
 }
 
 /* #footer {
